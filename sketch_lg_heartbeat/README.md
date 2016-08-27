@@ -1,11 +1,9 @@
 # sketch_lg_heartbeat
 
-This is an example for the  [wino-board](http://www.wino-board.com)
+This is an example for the  [ESP8266](http://www.esp8266.com/)
 how to connect to the WIFI network and send a REST post to the
 [limitless-garden](https://github.com/abarbanell/limitless-garden)
 backend.
-
-It uses the wino-board wifi library which is still in early stage.
 
 
 WIFI passwords and configuration parameters will be injected via a local
@@ -17,8 +15,8 @@ file config.h - see below.
 First you can 
 
 ```
-$ git clone git@github.com:abarbanell/arduino-wino.git
-$ cd arduino-wino/sketch_lg_heartbeat
+$ git clone git@github.com:abarbanell/arduino-esp8266.git
+$ cd arduino-esp8266/sketch_lg_heartbeat
 ```
 
 However, before you compile this sketch you need to create a file
@@ -54,11 +52,8 @@ However, before you compile this sketch you need to create a file
 
 Of course you want to have your own values in here. 
 
-Then you can compile and upload the sketch to your arduino as usual and
+Then you can compile and upload the sketch to your esp8266 as usual and
 you should see after a while the IP address printed on the serial monitor
-every 200 ms or so. 
+and a json message being posted to the backend.
 
-# TODO
-
-the functionality to actually send a post request is yet to be implemented.
 
