@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "arduino-esp8266 - projects using the esp8266 processor with the Arduino IDE"
+title                    : "arduino-esp8266 - esp8266 processor with Arduino IDE"
 title_separator          : "-"
 name                     : "Tobias Abarbanell"
 description              : "Project documentation for my esp8266 things."
